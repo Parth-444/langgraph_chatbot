@@ -36,12 +36,12 @@ docker run -e GOOGLE_API_KEY_PRO="sk-xxxxx" p4rth444/chatbot
 ### 🛠 Local Development (Optional)
 ```bash
 # Clone repository
-git clone https://github.com/<your_github_username>/langgraph-chatbot.git
-cd langgraph-chatbot
+git clone https://github.com/Parth-444/langgraph_chatbot.git
+cd langgraph_chatbot
 
 # Build Docker image
-docker build -t langgraph-chatbot .
+docker build -t langgraph_chatbot .
 
 # Run container with env variable
-docker run -e GOOGLE_API_KEY="sk-xxxxx" langgraph-chatbot
+docker run -e GOOGLE_API_KEY="sk-xxxxx" langgraph_chatbot
 ```
