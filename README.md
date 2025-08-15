@@ -45,3 +45,6 @@ docker build -t langgraph_chatbot .
 # Run container with env variable
 docker run -e GOOGLE_API_KEY="sk-xxxxx" langgraph_chatbot
 ```
+
+### Cloud hosted link
+https://chatbot-pi2y.onrender.com
